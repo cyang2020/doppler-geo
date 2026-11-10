@@ -1,0 +1,453 @@
+[
+ {
+  "name": "long-island",
+  "lat": 40.75,
+  "lon": -73.15,
+  "passes_in_audio": 10,
+  "duration_s": 1800,
+  "center": [
+   40.7053,
+   -73.5869
+  ],
+  "day": "2026-09-08",
+  "found": [
+   40.74991,
+   -73.15031
+  ],
+  "error_m": 28,
+  "start_error_s": 0.1,
+  "confidence": "high",
+  "passes_used": 12,
+  "passes_explained": 11,
+  "method": "kinematic",
+  "seconds": 144.4
+ },
+ {
+  "name": "sf-bay",
+  "lat": 37.66,
+  "lon": -122.12,
+  "passes_in_audio": 16,
+  "duration_s": 1200,
+  "center": [
+   37.5118,
+   -122.3389
+  ],
+  "day": "2026-09-09",
+  "found": [
+   37.66002,
+   -122.11965
+  ],
+  "error_m": 31,
+  "start_error_s": 0.2,
+  "confidence": "high",
+  "passes_used": 12,
+  "passes_explained": 10,
+  "method": "kinematic",
+  "seconds": 38.6
+ },
+ {
+  "name": "denver",
+  "lat": 39.93,
+  "lon": -105.08,
+  "passes_in_audio": 18,
+  "duration_s": 900,
+  "center": [
+   40.1271,
+   -105.3566
+  ],
+  "day": "2026-09-07",
+  "found": [
+   39.93116,
+   -105.08111
+  ],
+  "error_m": 159,
+  "start_error_s": 0.1,
+  "confidence": "high",
+  "passes_used": 12,
+  "passes_explained": 11,
+  "method": "kinematic",
+  "seconds": 36.1
+ },
+ {
+  "name": "irvine-a",
+  "lat": 33.66189,
+  "lon": -117.75991,
+  "passes_in_audio": 2,
+  "duration_s": 600,
+  "center": [
+   33.9129,
+   -117.6356
+  ],
+  "day": "2026-09-07",
+  "found": [
+   33.66195,
+   -117.75984
+  ],
+  "error_m": 9,
+  "start_error_s": 0.2,
+  "confidence": "medium",
+  "passes_used": 5,
+  "passes_explained": 3,
+  "method": "kinematic",
+  "seconds": 46.5
+ },
+ {
+  "name": "orlando-a",
+  "lat": 28.50547,
+  "lon": -81.29008,
+  "passes_in_audio": 24,
+  "duration_s": 1800,
+  "center": [
+   28.5068,
+   -81.0071
+  ],
+  "day": "2026-09-07",
+  "found": [
+   28.50542,
+   -81.29005
+  ],
+  "error_m": 6,
+  "start_error_s": 0.1,
+  "confidence": "high",
+  "passes_used": 12,
+  "passes_explained": 12,
+  "method": "kinematic",
+  "seconds": 24.0
+ },
+ {
+  "name": "seattle-a",
+  "lat": 47.54615,
+  "lon": -122.31936,
+  "passes_in_audio": 18,
+  "duration_s": 1200,
+  "center": [
+   47.7402,
+   -121.8132
+  ],
+  "day": "2026-09-07",
+  "found": [
+   47.54662,
+   -122.31972
+  ],
+  "error_m": 59,
+  "start_error_s": -0.2,
+  "confidence": "high",
+  "passes_used": 12,
+  "passes_explained": 10,
+  "method": "kinematic",
+  "seconds": 18.4
+ },
+ {
+  "name": "chicago-a",
+  "lat": 41.66006,
+  "lon": -87.99392,
+  "passes_in_audio": 12,
+  "duration_s": 1800,
+  "center": [
+   41.945,
+   -88.2258
+  ],
+  "day": "2026-09-08",
+  "found": [
+   41.66007,
+   -87.99434
+  ],
+  "error_m": 35,
+  "start_error_s": -0.2,
+  "confidence": "high",
+  "passes_used": 12,
+  "passes_explained": 12,
+  "method": "kinematic",
+  "seconds": 37.2
+ },
+ {
+  "name": "dallas-a",
+  "lat": 32.9066,
+  "lon": -97.09462,
+  "passes_in_audio": 17,
+  "duration_s": 1200,
+  "center": [
+   33.0677,
+   -96.6949
+  ],
+  "day": "2026-09-09",
+  "found": [
+   32.90677,
+   -97.09495
+  ],
+  "error_m": 36,
+  "start_error_s": 0.0,
+  "confidence": "high",
+  "passes_used": 12,
+  "passes_explained": 11,
+  "method": "kinematic",
+  "seconds": 58.8
+ },
+ {
+  "name": "boston-a",
+  "lat": 42.44427,
+  "lon": -71.1774,
+  "passes_in_audio": 3,
+  "duration_s": 600,
+  "center": [
+   42.7669,
+   -70.9271
+  ],
+  "day": "2026-09-08",
+  "found": [
+   42.44387,
+   -71.17692
+  ],
+  "error_m": 59,
+  "start_error_s": 0.3,
+  "confidence": "medium",
+  "passes_used": 4,
+  "passes_explained": 4,
+  "method": "kinematic",
+  "seconds": 11.9
+ },
+ {
+  "name": "austin-a",
+  "lat": 30.22998,
+  "lon": -97.67173,
+  "passes_in_audio": 27,
+  "duration_s": 1800,
+  "center": [
+   30.3287,
+   -97.3634
+  ],
+  "day": "2026-09-09",
+  "found": [
+   30.23006,
+   -97.67166
+  ],
+  "error_m": 11,
+  "start_error_s": 0.3,
+  "confidence": "high",
+  "passes_used": 12,
+  "passes_explained": 12,
+  "method": "kinematic",
+  "seconds": 11.0
+ },
+ {
+  "name": "portland-a",
+  "lat": 45.52174,
+  "lon": -122.79939,
+  "passes_in_audio": 4,
+  "duration_s": 1800,
+  "center": [
+   45.7026,
+   -122.4195
+  ],
+  "day": "2026-09-07",
+  "found": [
+   45.52178,
+   -122.79969
+  ],
+  "error_m": 24,
+  "start_error_s": 0.0,
+  "confidence": "high",
+  "passes_used": 6,
+  "passes_explained": 5,
+  "method": "kinematic",
+  "seconds": 10.9
+ },
+ {
+  "name": "irvine-b",
+  "lat": 33.62186,
+  "lon": -117.8903,
+  "passes_in_audio": 15,
+  "duration_s": 1200,
+  "center": [
+   33.9411,
+   -117.9738
+  ],
+  "day": "2026-09-08",
+  "found": [
+   33.62192,
+   -117.89026
+  ],
+  "error_m": 8,
+  "start_error_s": -0.1,
+  "confidence": "high",
+  "passes_used": 12,
+  "passes_explained": 6,
+  "method": "kinematic",
+  "seconds": 102.3
+ },
+ {
+  "name": "orlando-b",
+  "lat": 28.44882,
+  "lon": -81.34501,
+  "passes_in_audio": 14,
+  "duration_s": 1200,
+  "center": [
+   28.792,
+   -81.4892
+  ],
+  "day": "2026-09-08",
+  "found": [
+   28.44886,
+   -81.34526
+  ],
+  "error_m": 25,
+  "start_error_s": 0.4,
+  "confidence": "high",
+  "passes_used": 9,
+  "passes_explained": 6,
+  "method": "kinematic",
+  "seconds": 45.4
+ },
+ {
+  "name": "seattle-b",
+  "lat": 47.52709,
+  "lon": -122.29544,
+  "passes_in_audio": 44,
+  "duration_s": 1800,
+  "center": [
+   47.2969,
+   -122.1976
+  ],
+  "day": "2026-09-07",
+  "found": [
+   47.52535,
+   -122.29618
+  ],
+  "error_m": 201,
+  "start_error_s": -2.1,
+  "confidence": "medium",
+  "passes_used": 12,
+  "passes_explained": 8,
+  "method": "kinematic",
+  "seconds": 30.6
+ },
+ {
+  "name": "chicago-b",
+  "lat": 41.59535,
+  "lon": -87.94779,
+  "passes_in_audio": 6,
+  "duration_s": 1800,
+  "center": [
+   41.7257,
+   -88.3543
+  ],
+  "day": "2026-09-09",
+  "found": [
+   41.59511,
+   -87.94766
+  ],
+  "error_m": 28,
+  "start_error_s": 0.1,
+  "confidence": "high",
+  "passes_used": 6,
+  "passes_explained": 6,
+  "method": "kinematic",
+  "seconds": 26.6
+ },
+ {
+  "name": "dallas-b",
+  "lat": 32.89535,
+  "lon": -97.01125,
+  "passes_in_audio": 64,
+  "duration_s": 1800,
+  "center": [
+   33.1533,
+   -97.2651
+  ],
+  "day": "2026-09-09",
+  "found": [
+   32.89471,
+   -97.0091
+  ],
+  "error_m": 213,
+  "start_error_s": 1.3,
+  "confidence": "high",
+  "passes_used": 12,
+  "passes_explained": 10,
+  "method": "kinematic",
+  "seconds": 44.6
+ },
+ {
+  "name": "boston-b",
+  "lat": 42.45588,
+  "lon": -71.17111,
+  "passes_in_audio": 10,
+  "duration_s": 1200,
+  "center": [
+   42.758,
+   -71.1141
+  ],
+  "day": "2026-09-07",
+  "found": [
+   42.45592,
+   -71.17157
+  ],
+  "error_m": 38,
+  "start_error_s": -0.4,
+  "confidence": "high",
+  "passes_used": 12,
+  "passes_explained": 10,
+  "method": "kinematic",
+  "seconds": 63.7
+ },
+ {
+  "name": "austin-b",
+  "lat": 30.29011,
+  "lon": -97.62155,
+  "passes_in_audio": 8,
+  "duration_s": 1200,
+  "center": [
+   30.1069,
+   -97.245
+  ],
+  "day": "2026-09-08",
+  "found": [
+   30.28997,
+   -97.62151
+  ],
+  "error_m": 16,
+  "start_error_s": 0.2,
+  "confidence": "high",
+  "passes_used": 10,
+  "passes_explained": 9,
+  "method": "kinematic",
+  "seconds": 15.3
+ },
+ {
+  "name": "portland-b",
+  "lat": 45.52365,
+  "lon": -122.90676,
+  "passes_in_audio": 1,
+  "duration_s": 600,
+  "center": [
+   45.3526,
+   -123.271
+  ],
+  "day": "2026-09-08",
+  "refused": "only 1 clear aircraft pass(es) in the audio; need at least 2",
+  "seconds": 0.6
+ },
+ {
+  "name": "oyster-bay",
+  "lat": 40.87,
+  "lon": -73.5,
+  "passes_in_audio": 12,
+  "duration_s": 1800,
+  "center": [
+   41.1602,
+   -73.4191
+  ],
+  "day": "2026-09-08",
+  "found": [
+   40.87134,
+   -73.50005
+  ],
+  "error_m": 149,
+  "start_error_s": 0.6,
+  "confidence": "high",
+  "passes_used": 11,
+  "passes_explained": 6,
+  "method": "kinematic",
+  "seconds": 68.1
+ }
+]

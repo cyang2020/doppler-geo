@@ -1,0 +1,58 @@
+[project]
+name = "doppler-geo"
+version = "0.1.0"
+description = "Locate an audio recording from the Doppler tones of aircraft flying over it, using public ADS-B history."
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{ name = "Casper Yang" }]
+requires-python = ">=3.11"
+keywords = ["geolocation", "doppler", "ads-b", "acoustics", "osint", "signal-processing"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering :: Physics",
+    "Topic :: Multimedia :: Sound/Audio :: Analysis",
+]
+dependencies = [
+    "matplotlib>=3.8",
+    "numba>=0.60",
+    "numpy>=1.26",
+    "orjson>=3.9",
+    "pandas>=2.1",
+    "pillow>=10.0",
+    "pyarrow>=14.0",
+    "pyproj>=3.6",
+    "requests>=2.31",
+    "scipy>=1.11",
+    "soundfile>=0.12",
+]
+
+[project.optional-dependencies]
+server = ["fastapi>=0.110", "uvicorn>=0.27", "python-multipart>=0.0.9"]
+plot = ["contextily>=1.5"]
+dev = ["pytest>=8.0", "ruff>=0.4"]
+
+[project.scripts]
+dopgeo = "dopgeo.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/cyang2020/doppler-geo"
+Issues = "https://github.com/cyang2020/doppler-geo/issues"
+
+[build-system]
+requires = ["hatchling>=1.26"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["dopgeo"]
+
+[tool.hatch.build.targets.sdist]
+include = ["dopgeo", "tests", "examples", "README.md", "LICENSE"]
+
+[tool.ruff]
+line-length = 120
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = ["integration: needs downloaded ADS-B history (slow)"]

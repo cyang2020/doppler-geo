@@ -1,0 +1,22 @@
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.ruff_cache/
+build/
+dist/
+*.egg-info/
+
+# local data and outputs (ADS-B history is ~1 GB per day; recordings are not redistributed)
+data/
+runs/
+scratch/
+*.wav
+*.mp3
+*.m4a
+*.mp4
+!tests/data/*.wav
+
+# benchmark outputs
+benchmarks/out/
+benchmarks/run.log
